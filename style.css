@@ -186,7 +186,7 @@ body{
     
     padding-top: 135px;
     padding-bottom: 60px;
-    background: url(img/mainBg.jpg) no-repeat center center scroll; 
+    background: url(mainBg.jpg) no-repeat center center scroll; 
     background-size: cover;
     position: relative;
 
@@ -249,7 +249,7 @@ border: 1px solid #a97a7d;
 }
 
 .destinationpic{
-    background: url(img/destination.jpg);
+    background: url(destination.jpg);
     /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
@@ -400,7 +400,7 @@ border: 1px solid #a97a7d;
       padding: 160px 0 190px; } 
 }
 
-@media screen and (max-width: 600px) {
+@media(max-width: 600px) {
     .destinationpic {
       padding: 120px 0 150px; } 
 }
